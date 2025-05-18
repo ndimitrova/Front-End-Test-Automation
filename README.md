@@ -10,4 +10,4 @@ Automated UI tests using Selenium IDE and Selenium WebDriver
    Edit Last Added Note Test,
    Move Edited Note to Done Test,
    Delete Edited Note Test,
-   Logout Test
+   Logout Test.

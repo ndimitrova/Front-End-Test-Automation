@@ -1,0 +1,260 @@
+{
+  "id": "829afdb7-ebdb-4d2a-ba5e-1f7b354fa200",
+  "version": "2.0",
+  "name": "SimpleNotesTests",
+  "url": "https://d5wfqm7y6yb3q.cloudfront.net",
+  "tests": [{
+    "id": "c6313c22-4631-40b4-bdf3-3cd761cad24e",
+    "name": "01.Landing Page Navigation Test",
+    "commands": [{
+      "id": "532147f7-b4fb-4996-a5db-0e4a215652a6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "158f1dd3-fe8f-4ead-8d2b-bea6570faf75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb85d372-a7ae-48aa-bb81-afe2e8fe0c5e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Home Page - SimpleNotes.WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2b80468-b30a-4dea-8724-57fd281b7ccf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='btn btn-outline-light btn-lg mt-5']",
+      "targets": [],
+      "value": "JOIN US NOW!"
+    }, {
+      "id": "364acb55-9b71-4844-b0a7-f90417168aab",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "12145024-637f-446c-a9e3-fb3e837b0481",
+    "name": "02.Login Test",
+    "commands": [{
+      "id": "769289ad-b42d-4075-9671-90d08eb7d614",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e104c354-92bb-4455-ad10-49e3910c1f70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b91ccf65-3c27-479f-8fd7-ee4589e91c17",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@class='btn btn-outline-light btn-lg mt-5']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "875e218c-610c-4d3a-b2de-95a3e3ea2fae",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='tab-login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c4458cf-9e04-4407-a0e9-c9a538750c86",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='loginName']",
+      "targets": [],
+      "value": "test777@test.bg"
+    }, {
+      "id": "5452feef-b094-4aff-9aa9-c9a4206c0f71",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='loginPassword']",
+      "targets": [],
+      "value": "Doidohvidqhpobedih5"
+    }, {
+      "id": "0978aa91-4019-4fa3-aa58-9d8dd09bad34",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@class='btn btn-primary btn-block mb-4']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad4108d3-f874-4b89-8014-1f87c2d48dbc",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Main Page - Simple Notes",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "363e8541-ccee-4333-b2d0-c248fc118ecf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@href='/Note/New']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a078cc8c-ef8f-4e7a-9e4f-2f6f1ffda510",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@href='/Note/Done']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "082e494b-5275-4671-bef5-a73f381e75d0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@href='/User/Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd46302c-77f8-4e07-a247-3ed78ebe38f8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/User/Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b8036de-7d05-4bdc-a4cc-bcc7d989ca62",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='btn btn-outline-light btn-lg mt-5']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efbc7f19-a756-4b7a-8798-4d276314bd3e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "85b91325-b986-4953-8e2a-7125f0853bf0",
+    "name": "03.View Profile Test",
+    "commands": [{
+      "id": "d75a1cc8-e547-498e-b078-bbd6516ec8ea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52f3cff8-6966-4b8f-9b9e-d4d0152c4e37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70f41c6f-1d70-4095-a64f-aee6e8eb303d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@class='btn btn-outline-light btn-lg mt-5']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c7e31af-75a3-4acb-9449-45d3f6d00aa4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='tab-login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1336522b-dc6f-4db1-b800-6b50dfe22e73",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='loginName']",
+      "targets": [],
+      "value": "test777@test.bg"
+    }, {
+      "id": "79e0a882-eda3-4880-9027-aa4f2beeaf5e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='loginPassword']",
+      "targets": [],
+      "value": "Doidohvidqhpobedih5"
+    }, {
+      "id": "c5557570-c173-4110-915d-eba351ddceaf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@class='btn btn-primary btn-block mb-4']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49d12741-8f4b-40f5-95f7-9c926288aead",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navbarDropdownMenuLink > .rounded-circle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c4701ab-4186-4193-9ac4-c8065334831a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[text()='My profile']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6922c8a5-3c04-408c-b737-a0cdc0ae0b37",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[@class='card-body text-center']/h4",
+      "targets": [],
+      "value": "Nina Tested Dimitrova                           "
+    }, {
+      "id": "d9bc64e4-d798-4fee-95da-9b27ba22a696",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[@class='card-body text-center']//p[@class='text-muted mb-4']",
+      "targets": [],
+      "value": "Username: n.dimitrova | Email: test777@test.bg"
+    }, {
+      "id": "6f153c26-36b5-40a2-a628-12eb0c1300df",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@href='/User/Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32163b18-29a4-4165-914f-e9105731e970",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Home Page - SimpleNotes.WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4fcb52d-c16f-4ccc-a264-9e3a27f709ff",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cdd0c1c3-7116-4ae5-9605-c2b16d00f9b0",
+    "name": "Simple Notes Test Suit",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c6313c22-4631-40b4-bdf3-3cd761cad24e", "12145024-637f-446c-a9e3-fb3e837b0481", "85b91325-b986-4953-8e2a-7125f0853bf0"]
+  }],
+  "urls": ["https://d5wfqm7y6yb3q.cloudfront.net/"],
+  "plugins": []
+}
